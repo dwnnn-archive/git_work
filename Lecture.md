@@ -35,3 +35,8 @@ git switch -c 'new-teams' (생성과 변경을 한번에!)
 branch가 new-temas인 상태로 git rebase main을 하면 main이 (branch_name)의 변경사항을 가져옴
 rebase는 비추천(꼭 필요하지 않으면 rebase보다는 merge를 사용)
 
+# git push origin main
+github로 보낼 수 있도록 git으로 보낼 때 사용
+origin main은 기본적으로 있는 폴더
+처음에만 origin main을 써주면 다음부터는 git push만 하면 됨
+
