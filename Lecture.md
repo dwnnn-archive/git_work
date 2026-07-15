@@ -40,3 +40,5 @@ github로 보낼 수 있도록 git으로 보낼 때 사용
 origin main은 기본적으로 있는 폴더
 처음에만 origin main을 써주면 다음부터는 git push만 하면 됨
 
+# 패치를 하면 pull 해 올 것이 있는지 확인하는 것임.
+pull 해 올 게 있으면 origin이 붙은 변경기록이 main의 위에 붙음(SourceTree)
