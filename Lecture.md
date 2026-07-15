@@ -27,3 +27,11 @@ Initial Commit 부분은 커밋할 버전의 이름
 git branch (지금 있는 branch 확인)
 git branch add-coach (add-coach라는 branch 생성)
 git switch add-coach (add-coach branch로 HEAD바꾸기)
+git switch -c 'new-teams' (생성과 변경을 한번에!)
+
+# git merge
+
+# git rebase (branch_name)
+branch가 new-temas인 상태로 git rebase main을 하면 main이 (branch_name)의 변경사항을 가져옴
+rebase는 비추천(꼭 필요하지 않으면 rebase보다는 merge를 사용)
+
