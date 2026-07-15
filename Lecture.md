@@ -15,3 +15,15 @@ git status (저장된 항목 확인)
 # git commit -m "Initial Commit"
 변경 버전 등록하기
 Initial Commit 부분은 커밋할 버전의 이름
+
+# Source Tree
+커밋 과정을 이쁘게 보여주는 꽁짜 앱~
+(git log와 비슷함)
+
+# git reset --hard d6e72eb
+(hard는 싹 다 없애버리겠다는 말, 여기서는 LG Twins(d6e72eb)까지만 남겨놓겠다는 말임)
+
+# HEAD 바꾸기
+git branch (지금 있는 branch 확인)
+git branch add-coach (add-coach라는 branch 생성)
+git switch add-coach (add-coach branch로 HEAD바꾸기)
